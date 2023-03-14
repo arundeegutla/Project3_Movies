@@ -23,12 +23,13 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        Nuke.loadImage(with: movie.backdrop, into: backDrop)
-        movieName.text = movie.movieName
+        let url = URL(string: "https://www.themoviedb.org/t/p/original" + (movie.backdrop_path).absoluteString)
+        Nuke.loadImage(with: url!, into: backDrop)
+        movieName.text = movie.title
         overviewLabel.text = movie.overview
         popularity.text = String(format: "%.2f", movie.popularity) + " Popularity"
-        voteAverage.text = String(format: "%.2f", movie.averageVotes) + " avg. vote"
-        totalVotesLabel.text = String(format: "%d", movie.totalVotes) + " total votes"
+        voteAverage.text = String(format: "%.2f", movie.vote_average) + " avg. vote"
+        totalVotesLabel.text = String(format: "%d", movie.vote_count) + " total votes"
     }
     
 

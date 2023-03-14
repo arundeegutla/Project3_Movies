@@ -17,6 +17,8 @@
 		A7960AF629B9749400C5035D /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7960AF529B9749400C5035D /* MovieCell.swift */; };
 		A7A75C7A29B98AEC0083BDE2 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = A7A75C7929B98AEC0083BDE2 /* Nuke */; };
 		A7A75C7C29B98DE10083BDE2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A75C7B29B98DE10083BDE2 /* DetailViewController.swift */; };
+		A7B4941B29C031BE002E747E /* PostersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4941A29C031BE002E747E /* PostersViewController.swift */; };
+		A7B4941D29C034E4002E747E /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4941C29C034E4002E747E /* PosterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		A7960AF529B9749400C5035D /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		A7A75C7429B985870083BDE2 /* Nuke */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Nuke; path = ../../../../../../../Downloads/Nuke; sourceTree = "<group>"; };
 		A7A75C7B29B98DE10083BDE2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A7B4941A29C031BE002E747E /* PostersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostersViewController.swift; sourceTree = "<group>"; };
+		A7B4941C29C034E4002E747E /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				A795096329B9632C002CF7CF /* LaunchScreen.storyboard */,
 				A795096629B9632C002CF7CF /* Info.plist */,
 				A7A75C7B29B98DE10083BDE2 /* DetailViewController.swift */,
+				A7B4941A29C031BE002E747E /* PostersViewController.swift */,
+				A7B4941C29C034E4002E747E /* PosterCell.swift */,
 			);
 			path = Project2_Movies;
 			sourceTree = "<group>";
@@ -178,11 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B4941D29C034E4002E747E /* PosterCell.swift in Sources */,
 				A795095D29B9632B002CF7CF /* ViewController.swift in Sources */,
 				A795095929B9632B002CF7CF /* AppDelegate.swift in Sources */,
 				A7960AF429B9682E00C5035D /* Movie.swift in Sources */,
 				A7A75C7C29B98DE10083BDE2 /* DetailViewController.swift in Sources */,
 				A7960AF629B9749400C5035D /* MovieCell.swift in Sources */,
+				A7B4941B29C031BE002E747E /* PostersViewController.swift in Sources */,
 				A795095B29B9632B002CF7CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

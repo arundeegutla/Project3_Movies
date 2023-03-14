@@ -28,8 +28,10 @@ class MovieCell: UITableViewCell {
     }
 
     public func configure(with movie: Movie) {
-        movieNameLabel.text = movie.movieName
+        movieNameLabel.text = movie.title
         overviewLabel.text = movie.overview
-        Nuke.loadImage(with: movie.poster, into: posterImage)
+        let url = URL(string: "https://www.themoviedb.org/t/p/original" + (movie.poster_path).absoluteString)
+        print("LINK" + (url?.absoluteString ?? " DIDNT"))
+        Nuke.loadImage(with: url!, into: posterImage)
     }
 }
