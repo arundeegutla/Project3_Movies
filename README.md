@@ -1,34 +1,33 @@
-# Project 2 - *Flix*
+# Project 3 - *Flix*
 
 Submitted by: **Arun Deegutla**
 
-**Flix** is a movie browsing app that... [TODO] 
+**Flix** is an app that introduces networking ... [TODO] 
 
-Time spent: **6** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] Users are able to see a customized app icon and launch screen
-- [x] Your app should work for any screen size and orientation using AutoLayout constraints
-- [x] Displays at least 5 different movies in a table view
-- [x] Can tap into detail view of movie with a full description, backdrop image, and title
+- [x] Implement network call and table view to display a list of movies currently playing (title, description, image)
+- [x] App has a collection view with the same list of movies
+- [x] Uses a tab bar controller to switch between collection view and table view screens
  
 The following **optional** features are implemented:
 
-- [ ] Unique UI changes, such as background, font/color changes, etc.
-- [ ] User implements a collection view
-- [ ] User implemenets tab bar controller with at least two screens
+- [x] Make an additional network call to another end-point.	
+- [x] Allow users to scroll when context items are off-screen (table view implemention)
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-https://user-images.githubusercontent.com/55728123/223920262-715c3d76-7f96-48b0-a407-a0d99f161ec1.mov
+https://user-images.githubusercontent.com/55728123/224905837-4760892f-5e1c-4601-a317-2556ced672ed.mov
 
 ## Notes
-Had trouble finding the issue for importing local package for Nuke. Checked out a YouTube video for the fix!
+
+No issues for this project.
 
 ## License
 
