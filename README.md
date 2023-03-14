@@ -2,7 +2,7 @@
 
 Submitted by: **Arun Deegutla**
 
-**Flix** is an app that shows details of latest movies
+**Flix** is an app that shows details of latest movies and an extension of Project2_Movies
 
 Time spent: **3** hours spent in total
 
