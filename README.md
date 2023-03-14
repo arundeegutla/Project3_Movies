@@ -2,7 +2,7 @@
 
 Submitted by: **Arun Deegutla**
 
-**Flix** is an app that introduces networking ... [TODO] 
+**Flix** is an app that shows details of latest movies
 
 Time spent: **3** hours spent in total
 
